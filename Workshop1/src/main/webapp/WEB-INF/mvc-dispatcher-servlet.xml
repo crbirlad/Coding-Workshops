@@ -28,8 +28,11 @@
     <bean id="spellChecker" class="com.springapp.impl.ActualSpellChecker">
     </bean>
 
-    <mvc:annotation-driven />
+    <!-- Definition for movieFinder bean -->
+    <bean id="movieFinder" class="com.oracle.workshop.da.HappyMovieFinder"/>
 
-    <mvc:default-servlet-handler />
+    <mvc:annotation-driven/>
+
+    <mvc:default-servlet-handler/>
 
 </beans>

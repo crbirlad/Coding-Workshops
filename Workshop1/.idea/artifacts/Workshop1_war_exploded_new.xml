@@ -18,6 +18,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.0.RELEASE" />
+          <element id="file-copy" path="$APPLICATION_HOME_DIR$/lib/junit-4.10.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="Workshop1/web/Web" />
