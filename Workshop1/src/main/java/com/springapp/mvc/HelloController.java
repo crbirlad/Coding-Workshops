@@ -8,19 +8,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/hello")
 public class HelloController {
     private TextEditor textEditor;
 
     @Autowired
-    public HelloController(TextEditor textEditor)   {
+    public HelloController(TextEditor textEditor) {
         this.textEditor = textEditor;
     }
 
-	@RequestMapping(method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
+    @RequestMapping(method = RequestMethod.GET)
+    public String printWelcome(ModelMap model) {
 
-		model.addAttribute("message", textEditor.spellCheck());
-		return "hello";
-	}
+        //model.addAttribute("message", textEditor.spellCheck());
+        model.addAttribute("message", "Hello World");
+        return "hello";
+    }
 }
