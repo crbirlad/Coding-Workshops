@@ -27,9 +27,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Da" target="1.6" />
-      <module name="Model" target="1.6" />
-      <module name="Workshop1" target="1.6" />
+      <module name="Da" target="1.8" />
+      <module name="Model" target="1.8" />
+      <module name="Workshop1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
