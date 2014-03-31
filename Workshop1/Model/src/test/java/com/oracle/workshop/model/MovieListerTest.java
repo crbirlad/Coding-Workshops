@@ -13,14 +13,16 @@ import static junit.framework.Assert.assertEquals;
  * User: crbirlad
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("/MovieListerTest-context.xml")
+@ContextConfiguration("/Test-context.xml")
 public class MovieListerTest {
     @Autowired
     private IMovieFinder finder;
+    @Autowired
+    private MovieLister lister;
 
     @Test
     public void testGetMoviesNewerThan() throws Exception {
-        assertEquals(2, MovieLister.getMoviesNewerThan(1990).size());
+        assertEquals(2, lister.getMoviesNewerThan(1990).size());
     }
 
     @Test

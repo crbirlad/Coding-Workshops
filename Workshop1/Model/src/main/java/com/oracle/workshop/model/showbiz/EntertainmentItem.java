@@ -1,4 +1,4 @@
-package com.oracle.workshop.model;
+package com.oracle.workshop.model.showbiz;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -7,13 +7,11 @@ import java.util.Date;
  * Created with IntelliJ IDEA for the Oracle Coding Workshops.
  * User: crbirlad
  */
-public class Movie {
-
-    public Movie() {
-
+public abstract class EntertainmentItem implements Item {
+    public EntertainmentItem()  {
     }
 
-    public Movie(String title, Date releaseDate, String director, Genre genre) {
+    public EntertainmentItem(String title, Date releaseDate, String director, Genre genre) {
         this.title = title;
         this.releaseDate = releaseDate;
         this.director = director;
@@ -58,27 +56,37 @@ public class Movie {
         this.genre = genre;
     }
 
+    public long getDuration() {
+        return duration;
+    }
+
+    public void setDuration(long duration) {
+        this.duration = duration;
+    }
+
+    public abstract String getPrefix();
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Title: ");
+        sb.append(getPrefix());
+        sb.append(":");
         sb.append(title);
-        sb.append("| Year: ");
+        sb.append("|");
         sb.append(getYear());
-        sb.append("| Director: ");
+        sb.append("-");
         sb.append(director);
 
         return sb.toString();
     }
 
     public enum Genre {
-        ACTION, DRAMA, ANIMATION
+        ACTION, DRAMA, ANIMATION, SCI_FI
     }
 
     private String title;
     private Date releaseDate;
     private String director;
     private Genre genre;
-
-
+    private long duration;
 }

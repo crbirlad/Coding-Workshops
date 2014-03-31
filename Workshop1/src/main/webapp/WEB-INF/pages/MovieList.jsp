@@ -11,6 +11,6 @@
     <title>Movie List</title>
 </head>
 <body>
-<h1>${message}</h1>
+<h1>${messages}</h1>
 </body>
 </html>

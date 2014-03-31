@@ -18,10 +18,12 @@ public class MovieListController {
     @Autowired
     private IMovieFinder finder;
 
+    @Autowired
+    private MovieLister lister;
+
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
-        String result = MovieLister.getMoviesInYearRange(finder.findAll(), 1990, 2009).toString();
-        model.addAttribute("message", result);
-        return "hello";
+        model.addAttribute("messages", lister.getMoviesInYearRange(finder.findAll(), 1980, 2009));
+        return "MovieList";
     }
 }

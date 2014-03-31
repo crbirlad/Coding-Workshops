@@ -1,5 +1,8 @@
 package com.oracle.workshop.model;
 
+import com.oracle.workshop.model.impl.SimpleMovieFinder;
+import com.oracle.workshop.model.showbiz.Movie;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -11,7 +14,7 @@ import java.util.function.Predicate;
  * User: crbirlad
  */
 public class MovieLister {
-    public static List<Movie> getMoviesNewerThan(int year) {
+    public List<Movie> getMoviesNewerThan(int year) {
         SimpleMovieFinder finder = new SimpleMovieFinder();
         List<Movie> movies = finder.findAll();
 
@@ -78,7 +81,8 @@ public class MovieLister {
 
     public static void main(String args[]) {
         SimpleMovieFinder finder = new SimpleMovieFinder();
-        System.out.println(getMoviesNewerThan(1990));
+        MovieLister lister = new MovieLister();
+        System.out.println(lister.getMoviesNewerThan(1990));
 
         List<String> results = new ArrayList<>();
 

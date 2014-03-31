@@ -1,5 +1,7 @@
 package com.oracle.workshop.model;
 
+import com.oracle.workshop.model.showbiz.Movie;
+
 import java.util.List;
 
 /**

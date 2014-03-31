@@ -1,4 +1,4 @@
-package com.oracle.workshop.da;
+package com.oracle.workshop.model.impl;
 
 import com.oracle.workshop.common.util.ShowBizUtil;
 import com.oracle.workshop.model.IMovieFinder;
@@ -12,9 +12,10 @@ import java.util.List;
  * Created with IntelliJ IDEA for the Oracle Coding Workshops.
  * User: crbirlad
  */
-public class HappyMovieFinder implements IMovieFinder {
+public class SimpleMovieFinder implements IMovieFinder {
+    //TODO: leave this in initial project only
     //get log4j handler
-    private static final Logger logger = Logger.getLogger(HappyMovieFinder.class);
+    private static final Logger logger = Logger.getLogger(SimpleMovieFinder.class);
 
     public List<Movie> findAll() {
         //TODO: read from DB
@@ -22,12 +23,14 @@ public class HappyMovieFinder implements IMovieFinder {
 
         Movie movie;
 
-        movie = new Movie("The Matrix", ShowBizUtil.getDateFullFormat("March 31, 1999"), "The Wachowski Brothers", Movie.Genre.ACTION, Movie.MpaaRating.PG_13);
+        movie = new Movie("The Shawshank Redemption", ShowBizUtil.getDateFullFormat("October 14, 1994"), "Darabont", Movie.Genre.DRAMA, Movie.MpaaRating.PG_13);
         movies.add(movie);
 
-        movie = new Movie("Indiana Jones: Raiders of the Lost Ark", ShowBizUtil.getDateFullFormat("June 12, 1981"), "Spielberg", Movie.Genre.ACTION, Movie.MpaaRating.G);
+        movie = new Movie("Schindler's List", ShowBizUtil.getDateFullFormat("December 15, 1993"), "Spielberg", Movie.Genre.DRAMA, Movie.MpaaRating.G);
         movies.add(movie);
 
         return movies;
     }
+
+
 }

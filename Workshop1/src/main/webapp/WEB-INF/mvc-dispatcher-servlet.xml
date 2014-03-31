@@ -31,6 +31,9 @@
     <!-- Definition for movieFinder bean -->
     <bean id="movieFinder" class="com.oracle.workshop.da.HappyMovieFinder"/>
 
+    <!-- Definition for movieLister bean -->
+    <bean id="movieLister" class="com.oracle.workshop.model.MovieLister"/>
+
     <mvc:annotation-driven/>
 
     <mvc:default-servlet-handler/>
