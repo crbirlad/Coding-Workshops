@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Workshop1:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Workshop1.war">
+      <element id="artifact" artifact-name="Workshop1:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Model" />
+          <element id="module-output" name="Da" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

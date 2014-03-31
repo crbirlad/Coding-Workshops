@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <aop:aspectj-autoproxy/>
+
+    <!-- Definition for movieFinder bean -->
+    <bean id="movieFinder" class="com.oracle.workshop.model.stubs.SadMovieFinder"/>
+
+    <!-- Definition for movieLister bean -->
+    <bean id="movieLister" class="com.oracle.workshop.model.MovieLister"/>
+
+    <!-- Definition for movieLister bean -->
+    <bean id="itemVisitor" class="com.oracle.workshop.model.visitor.EntertainmentVisitor"/>
+
+    <!-- Definition for movieLister bean -->
+    <bean id="logging" class="com.oracle.workshop.model.aop.Logging"/>
+
+</beans>
