@@ -2,7 +2,9 @@ package com.oracle.workshop.model;
 
 import com.oracle.workshop.model.impl.SimpleMovieFinder;
 import com.oracle.workshop.model.showbiz.Movie;
+import com.oracle.workshop.model.strategy.CheckMovie;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +19,8 @@ import java.util.function.Predicate;
 public class MovieLister {
     //get log4j handler
     private static final Logger logger = Logger.getLogger(MovieLister.class);
+    @Autowired
+    private IMovieFinder movieFinder;
 
     /**
      * filter by year
@@ -39,8 +43,9 @@ public class MovieLister {
     /**
      * filter by year range
      */
-    public List<Movie> getMoviesInYearRange(List<Movie> movies, int startYear, int endYear) {
+    public List<Movie> getMoviesInYearRange(int startYear, int endYear) {
         List<Movie> results = new ArrayList<>();
+        List<Movie> movies = movieFinder.findAll();
 
         for (Movie movie : movies) {
             if (startYear <= movie.getYear() && movie.getYear() <= endYear) {
@@ -51,7 +56,9 @@ public class MovieLister {
         return results;
     }
 
-    public void printMovies(List<Movie> movies, CheckMovie tester) {
+    public void printMovies(CheckMovie tester) {
+        List<Movie> movies = movieFinder.findAll();
+
         for (Movie movie : movies) {
             if (tester.test(movie)) {
                 logger.info(movie);
@@ -59,7 +66,9 @@ public class MovieLister {
         }
     }
 
-    public void printMoviesWithPredicate(List<Movie> movies, Predicate<Movie> tester) {
+    public void printMoviesWithPredicate(Predicate<Movie> tester) {
+        List<Movie> movies = movieFinder.findAll();
+
         for (Movie movie : movies) {
             if (tester.test(movie)) {
                 logger.info(movie);
@@ -67,9 +76,10 @@ public class MovieLister {
         }
     }
 
-    public void processMovies(List<Movie> movies,
-                              Predicate<Movie> tester,
+    public void processMovies(Predicate<Movie> tester,
                               Consumer<Movie> block) {
+        List<Movie> movies = movieFinder.findAll();
+
         for (Movie movie : movies) {
             if (tester.test(movie)) {
                 block.accept(movie);
@@ -87,5 +97,13 @@ public class MovieLister {
                 block.accept(data);
             }
         }
+    }
+
+    public IMovieFinder getMovieFinder() {
+        return movieFinder;
+    }
+
+    public void setMovieFinder(IMovieFinder movieFinder) {
+        this.movieFinder = movieFinder;
     }
 }

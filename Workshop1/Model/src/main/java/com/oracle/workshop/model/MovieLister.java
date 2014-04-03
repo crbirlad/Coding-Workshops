@@ -2,6 +2,9 @@ package com.oracle.workshop.model;
 
 import com.oracle.workshop.model.impl.SimpleMovieFinder;
 import com.oracle.workshop.model.showbiz.Movie;
+import com.oracle.workshop.model.strategy.CheckMovie;
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +17,14 @@ import java.util.function.Predicate;
  * User: crbirlad
  */
 public class MovieLister {
+    //get log4j handler
+    private static final Logger logger = Logger.getLogger(MovieLister.class);
+    @Autowired
+    private IMovieFinder movieFinder;
+
+    /**
+     * filter by year
+     */
     public List<Movie> getMoviesNewerThan(int year) {
         SimpleMovieFinder finder = new SimpleMovieFinder();
         List<Movie> movies = finder.findAll();
@@ -29,8 +40,12 @@ public class MovieLister {
         return results;
     }
 
-    public static List<Movie> getMoviesInYearRange(List<Movie> movies, int startYear, int endYear) {
+    /**
+     * filter by year range
+     */
+    public List<Movie> getMoviesInYearRange(int startYear, int endYear) {
         List<Movie> results = new ArrayList<>();
+        List<Movie> movies = movieFinder.findAll();
 
         for (Movie movie : movies) {
             if (startYear <= movie.getYear() && movie.getYear() <= endYear) {
@@ -41,25 +56,30 @@ public class MovieLister {
         return results;
     }
 
-    public static void printMovies(List<Movie> movies, CheckMovie tester) {
+    public void printMovies(CheckMovie tester) {
+        List<Movie> movies = movieFinder.findAll();
+
         for (Movie movie : movies) {
             if (tester.test(movie)) {
-                System.out.println(movie);
+                logger.info(movie);
             }
         }
     }
 
-    public static void printMoviesWithPredicate(List<Movie> movies, Predicate<Movie> tester) {
+    public void printMoviesWithPredicate(Predicate<Movie> tester) {
+        List<Movie> movies = movieFinder.findAll();
+
         for (Movie movie : movies) {
             if (tester.test(movie)) {
-                System.out.println(movie);
+                logger.info(movie);
             }
         }
     }
 
-    public static void processMovies(List<Movie> movies,
-                                     Predicate<Movie> tester,
-                                     Consumer<Movie> block) {
+    public void processMovies(Predicate<Movie> tester,
+                              Consumer<Movie> block) {
+        List<Movie> movies = movieFinder.findAll();
+
         for (Movie movie : movies) {
             if (tester.test(movie)) {
                 block.accept(movie);
@@ -67,10 +87,10 @@ public class MovieLister {
         }
     }
 
-    public static <X,Y> void processMoviesWithFunction(Iterable<X> source,
-                                     Predicate<X> tester,
-                                     Function<X, Y> mapper,
-                                     Consumer<Y> block) {
+    public <X, Y> void processMoviesWithFunction(Iterable<X> source,
+                                                 Predicate<X> tester,
+                                                 Function<X, Y> mapper,
+                                                 Consumer<Y> block) {
         for (X x : source) {
             if (tester.test(x)) {
                 Y data = mapper.apply(x);
@@ -79,66 +99,11 @@ public class MovieLister {
         }
     }
 
-    public static void main(String args[]) {
-        SimpleMovieFinder finder = new SimpleMovieFinder();
-        MovieLister lister = new MovieLister();
-        System.out.println(lister.getMoviesNewerThan(1990));
+    public IMovieFinder getMovieFinder() {
+        return movieFinder;
+    }
 
-        List<String> results = new ArrayList<>();
-
-        getMoviesInYearRange(finder.findAll(), 2004, 2008);
-
-//        printMovies(finder.findAll(), new CheckMovie() {
-//                    public boolean test(Movie movie) {
-//                        return movie.getGenre() == Movie.Genre.DRAMA
-//                                && movie.getYear() >= 2003
-//                                && movie.getYear() <= 2008;
-//                    }
-//                }
-//        );
-
-//        printMovies(
-//                finder.findAll(),
-//                (Movie movie) -> movie.getGenre() == Movie.Genre.ACTION
-//                        && movie.getYear() >= 2003
-//                        && movie.getYear() <= 2008
-//        );
-
-//        printMoviesWithPredicate(
-//                finder.findAll(),
-//                movie -> movie.getGenre() == Movie.Genre.ACTION
-//                        && movie.getYear() >= 2003
-//                        && movie.getYear() <= 2008
-//        );
-
-//        processMovies(
-//                finder.findAll(),
-//                movie -> movie.getGenre() == Movie.Genre.ACTION
-//                        && movie.getYear() >= 2003
-//                        && movie.getYear() <= 2008,
-//                movie -> System.out.println(movie)
-//        );
-
-//        processMoviesWithFunction(
-//                finder.findAll(),
-//                movie -> movie.getGenre() == Movie.Genre.ACTION
-//                        && movie.getYear() >= 2003
-//                        && movie.getYear() <= 2008,
-//                movie -> movie.getDirector(),
-//                director -> System.out.println(director)
-//        );
-
-
-
-//        finder.findAll()
-//                .stream()
-//                .filter(
-//                        movie -> (movie.getGenre() == Movie.Genre.ACTION || movie.getGenre() == Movie.Genre.DRAMA)
-//                                && movie.getYear() >= 1990
-//                                && movie.getYear() <= 2020)
-//                .map(movie -> movie.getTitle())
-//                .forEach(title -> results.add(title));
-
-        System.out.println(results);
+    public void setMovieFinder(IMovieFinder movieFinder) {
+        this.movieFinder = movieFinder;
     }
 }

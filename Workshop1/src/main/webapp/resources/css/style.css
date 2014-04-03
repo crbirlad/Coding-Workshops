@@ -56,12 +56,25 @@ and also iPads specifically.
 @media only screen and (max-width: 760px),
 (min-device-width: 320px) and (max-device-width: 1024px) {
 
+    .moviesTable {
+        margin: 0px;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    tbody, thead {
+        margin: 0px;
+        padding: 0px;
+    }
+
     /* Force table to not be like tables anymore */
     table, thead, tbody, th, td, tr {
         display: block;
     }
 
-    /* Hide table headers*/
+    /* Hide table headers */
     thead tr {
         display: none;
     }
@@ -90,9 +103,8 @@ and also iPads specifically.
         white-space: nowrap;
     }
 
-    /*
-    Label the data
-    */
+    /*Label the data*/
+
     td:nth-of-type(1):before {
         content: "Title";
     }

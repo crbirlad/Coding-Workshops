@@ -45,6 +45,19 @@ public class EntertainmentTest {
     }
 
     @Test
+    public void canVisitMoviesShowsTrailers() {
+        for(Item item : items)  {
+            if(item instanceof Movie)   {
+                logger.info(((Movie) item).getMpaaRating());
+            } else if(item instanceof TvShow)   {
+                logger.info(((TvShow) item).getSeasons());
+            } else if(item instanceof Trailer)   {
+                logger.info(((Trailer) item).isTeaser());
+            }
+        }
+    }
+
+    @Test
     public void canVisitEntertainmentItem() {
         for(Item item : items)  {
             item.accept(itemVisitor);

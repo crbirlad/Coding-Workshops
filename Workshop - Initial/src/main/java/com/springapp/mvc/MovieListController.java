@@ -23,7 +23,7 @@ public class MovieListController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
-        model.addAttribute("messages", lister.getMoviesInYearRange(finder.findAll(), 1980, 2009));
+        model.addAttribute("messages", lister.getMoviesInYearRange(1980, 2009));
         return "MovieList";
     }
 }

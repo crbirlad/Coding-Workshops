@@ -1,4 +1,4 @@
-package com.oracle.workshop.model;
+package com.oracle.workshop.model.strategy;
 
 import com.oracle.workshop.model.showbiz.Movie;
 

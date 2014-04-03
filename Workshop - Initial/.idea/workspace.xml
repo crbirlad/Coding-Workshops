@@ -1,76 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" name="Default" comment="Refactoring: Design Patterns.&#10;Added log4j.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/AppTests.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/CheckMovie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/Common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Da/Da.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/EntertainmentItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/EntertainmentTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/visitor/EntertainmentVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Da/src/main/java/com/oracle/workshop/da/HappyMovieFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/IMovieFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/visitor/ItemVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/aop/Logging.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjtools_1_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Model.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/MovieList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MovieListController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/MovieLister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/stubs/SadMovieFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/com/oracle/workshop/common/util/ShowBizUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/impl/SimpleMovieFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/test/resources/Test-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/TopMovies.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/TopMoviesController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/Trailer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/TvShow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workshop1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Workshop1_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Workshop1_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Workshop1_war_exploded_new.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Da/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" name="Default" comment="Improved responsive design.">
+      <change type="DELETED" beforePath="D:\Projects\Coding Workshops\Coding-Workshops\.idea\artifacts\Coding_Workshops_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\Coding Workshops\Coding-Workshops\.idea\artifacts\Coding_Workshops_war_exploded.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workshop1/Model/src/test/java/com/oracle/workshop/model/EntertainmentTest.java" afterPath="$PROJECT_DIR$/../Workshop1/Model/src/test/java/com/oracle/workshop/model/EntertainmentTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MovieListController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MovieListController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workshop1/src/main/java/com/springapp/mvc/MovieListController.java" afterPath="$PROJECT_DIR$/../Workshop1/src/main/java/com/springapp/mvc/MovieListController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/MovieLister.java" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/MovieLister.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workshop1/Model/src/main/java/com/oracle/workshop/model/MovieLister.java" afterPath="$PROJECT_DIR$/../Workshop1/Model/src/main/java/com/oracle/workshop/model/MovieLister.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java" afterPath="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workshop1/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java" afterPath="$PROJECT_DIR$/../Workshop1/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/TopMovies.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/TopMovies.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workshop1/src/main/webapp/resources/css/style.css" afterPath="$PROJECT_DIR$/../Workshop1/src/main/webapp/resources/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Projects\Coding Workshops\Coding-Workshops\Workshop - Initial\Model\src\main\java\com\oracle\workshop\model\CheckMovie.java" afterPath="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/strategy/CheckMovie.java" />
     </list>
     <ignored path="Workshop1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396302645195" ignored="false" />
+    <file path="/Dummy.txt" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396559039821" ignored="false" />
     <file path="/SpellChecker.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395702627837" ignored="false" />
     <file path="/ActualSpellChecker.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395702636219" ignored="false" />
     <file path="/fragment.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396302367554" ignored="false" />
@@ -80,7 +29,7 @@
     <file path="/TextEditor.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395774202943" ignored="false" />
     <file path="/TopMovies.html" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395757510804" ignored="false" />
     <file path="/TopMovies.jsp" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395787837585" ignored="false" />
-    <file path="/style.css" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395787471472" ignored="false" />
+    <file path="/style.css" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396359892859" ignored="false" />
     <file path="/a.dummy" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396282766303" ignored="false" />
     <file path="/TopMoviesController.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395946402285" ignored="false" />
     <file path="/web.xml" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395870427716" ignored="false" />
@@ -92,14 +41,14 @@
     <file path="$PROJECT_DIR$/../../../Intellij/TestSpring4/web/WEB-INF/hello.jsp" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395875052975" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Intellij/TestSpring4/src/main/java/com/beingjavaguys/controller/HomeController.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395876741546" ignored="false" />
     <file path="/Movie.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396297799751" ignored="false" />
-    <file path="/MovieLister.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396301990578" ignored="false" />
+    <file path="/MovieLister.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396558530336" ignored="false" />
     <file path="/MovieFinder.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395948847161" ignored="false" />
     <file path="/log4j.properties" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396281100451" ignored="false" />
     <file path="/CheckPerson.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395949393720" ignored="false" />
     <file path="/IMovieFinder.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395951707344" ignored="false" />
     <file path="/ColonDelimitedMovieFinder.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395951775485" ignored="false" />
     <file path="/HappyMovieFinder.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396282491946" ignored="false" />
-    <file path="/MovieListerTest.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396301449886" ignored="false" />
+    <file path="/MovieListerTest.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396558316500" ignored="false" />
     <file path="/Beans.xml" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395959184095" ignored="false" />
     <file path="/MovieListerTest-context.xml" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1396284706458" ignored="false" />
     <file path="/HappyMovieFinder2.java" changelist="a3e365ad-599b-4d4f-ae5d-0eb01cbe3013" time="1395961070038" ignored="false" />
@@ -136,6 +85,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -172,7 +122,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -182,7 +131,35 @@
     <favorites_list name="Workshop1" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MovieListerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="64" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntertainmentTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/EntertainmentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="13" selection-start="1680" selection-end="2118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="10" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.9601407">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -201,22 +178,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Model/src/test/resources/MovieListerTest-context.xml" />
-        <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/visitor/EntertainmentVisitor.java" />
-        <option value="$PROJECT_DIR$/Model/pom.xml" />
         <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/Trailer.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/Movie.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/TvShow.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/aop/Logging.java" />
         <option value="$PROJECT_DIR$/Model/src/test/resources/Test-context.xml" />
         <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/EntertainmentItem.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/TopMovies.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/stubs/SadMovieFinder.java" />
-        <option value="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java" />
         <option value="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/EntertainmentTest.java" />
-        <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/MovieLister.java" />
         <option value="$PROJECT_DIR$/../Workshop - Initial - Copy/out/artifacts/Workshop1_war_exploded_new/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/stubs/SadMovieFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/TopMovies.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/strategy/CheckMovie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MovieListController.java" />
+        <option value="$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java" />
+        <option value="$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/MovieLister.java" />
       </list>
     </option>
   </component>
@@ -241,6 +218,10 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Workshop1" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -248,7 +229,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Da" />
+          <option name="myItemId" value="Model" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -262,12 +243,14 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Da" />
+          <option name="myItemId" value="Model" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
+      </PATH>
+      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -327,40 +310,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Workshop1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Workshop1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Workshop1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Workshop1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.springapp.mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Workshop1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -414,6 +363,10 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -430,6 +383,108 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,52 +588,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oracle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stubs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Workshop - Initial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Workshop - Initial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -623,6 +632,54 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop - Initial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.springapp.mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshop1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -683,7 +740,7 @@
       <recent name="com.springapp.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
+  <component name="RunManager" selected="JUnit.EntertainmentTests">
     <configuration default="false" name="MovieLister" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1120,7 +1177,11 @@
       <created>1396298711346</created>
       <updated>1396298711346</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Improved responsive design.">
+      <created>1396366534214</created>
+      <updated>1396366534214</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1145,34 +1206,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4777651" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35153583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39794755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3945268" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47662485" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24857469" sideWeight="0.6054732" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.67160773" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.709236" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27708095" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24663402" sideWeight="0.5222349" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39338654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25275397" sideWeight="0.59293044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40706956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.2736602" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6054732" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39953542" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1218,7 +1279,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring: Design Patterns.&#10;Added log4j." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved responsive design." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1237,6 +1298,7 @@
     <MESSAGE value="Responsive Design: UI Controller Enhancements" />
     <MESSAGE value="Refactoring: Unit Testing and DI." />
     <MESSAGE value="Refactoring: Design Patterns.&#10;Added log4j." />
+    <MESSAGE value="Improved responsive design." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1246,9 +1308,460 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/stubs/SadMovieFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="40" selection-start="763" selection-end="772" vertical-scroll-proportion="0.63833994" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="552" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.springapp:Model:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.springapp:Model:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="92.0" y="0.0">org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="92.0" y="494.0">org.aspectj:aspectjtools:jar:1.6.2</node>
+            <node x="92.0" y="570.0">com.springapp:Common:jar:1.0-SNAPSHOT</node>
+            <node x="209.0" y="38.0">org.springframework:spring-web:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="207.0" y="456.0">org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="208.0" y="342.0">org.springframework:spring-test:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="209.0" y="152.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE</node>
+            <node x="343.0" y="190.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="209.0" y="304.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="209.0" y="76.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="207.0" y="418.0">org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="92.0" y="38.0">org.springframework:spring-web:jar:4.0.0.RELEASE</node>
+            <node x="92.0" y="532.0">log4j:log4j:jar:1.2.9</node>
+            <node x="207.0" y="380.0">org.springframework:spring-aop:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="343.0" y="152.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="492.0" y="266.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="197.0" y="570.0">com.springapp:Common:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.9</node>
+            <node x="209.0" y="114.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="0.0" y="0.0">com.springapp:Model:1.0-SNAPSHOT</node>
+            <node x="343.0" y="228.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="210.0" y="0.0">org.springframework:spring-core:jar:4.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="92.0" y="342.0">org.springframework:spring-test:jar:4.0.0.RELEASE</node>
+            <node x="343.0" y="266.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE</node>
+            <node x="92.0" y="380.0">org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="335.0" y="114.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.0.0.RELEASE" target="org.springframework:spring-core:jar:4.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="134.5" y="432.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="261.0" y="242.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="261.0" y="280.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="31.0" y="52.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.9">
+              <point x="0.0" y="0.0" />
+              <point x="31.0" y="546.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="135.5" y="166.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="135.5" y="318.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:1.0-SNAPSHOT" target="com.springapp:Common:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="31.0" y="584.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="31.0" y="356.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-aop:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="134.5" y="470.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="135.5" y="128.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:1.0-SNAPSHOT" target="org.aspectj:aspectjtools:jar:1.6.2">
+              <point x="0.0" y="0.0" />
+              <point x="31.0" y="508.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Common:jar:1.0-SNAPSHOT" target="com.springapp:Common:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="135.5" y="90.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="261.0" y="204.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="31.0" y="394.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.0.0.RELEASE" target="org.springframework:spring-test:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8750809061488672" x="166.0" y="265.0" />
+          <SelectedNodes>
+            <node>com.springapp:Model:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.springapp:Workshop1:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.springapp:Workshop1:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="195.0" y="1026.0">com.springapp:Da:jar:1.0-SNAPSHOT/com.springapp:Model:jar:1.0-SNAPSHOT</node>
+            <node x="235.0" y="38.0">org.springframework:spring-web:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="118.0" y="494.0">org.springframework:spring-webmvc:jar:4.0.0.RELEASE</node>
+            <node x="234.0" y="684.0">org.springframework:spring-test:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="235.0" y="228.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE</node>
+            <node x="210.0" y="988.0">com.springapp:Model:jar:1.0-SNAPSHOT/com.springapp:Common:jar:1.0-SNAPSHOT</node>
+            <node x="235.0" y="76.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="210.0" y="836.0">com.springapp:Model:jar:1.0-SNAPSHOT/org.springframework:spring-web:jar:4.0.0.RELEASE</node>
+            <node x="254.0" y="570.0">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="118.0" y="456.0">javax.servlet.jsp:jsp-api:jar:2.2</node>
+            <node x="118.0" y="760.0">log4j:log4j:jar:1.2.9</node>
+            <node x="223.0" y="1102.0">com.springapp:Common:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.9</node>
+            <node x="369.0" y="228.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="118.0" y="684.0">org.springframework:spring-test:jar:4.0.0.RELEASE</node>
+            <node x="403.0" y="608.0">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="210.0" y="950.0">com.springapp:Model:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.9</node>
+            <node x="361.0" y="190.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="118.0" y="722.0">junit:junit:jar:4.8.2</node>
+            <node x="350.0" y="76.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="0.0" y="0.0">com.springapp:Workshop1:1.0-SNAPSHOT</node>
+            <node x="118.0" y="0.0">org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="350.0" y="114.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="118.0" y="1102.0">com.springapp:Common:jar:1.0-SNAPSHOT</node>
+            <node x="118.0" y="1026.0">com.springapp:Da:jar:1.0-SNAPSHOT</node>
+            <node x="254.0" y="532.0">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE</node>
+            <node x="235.0" y="380.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="369.0" y="266.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="254.0" y="608.0">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE</node>
+            <node x="350.0" y="152.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="118.0" y="38.0">org.springframework:spring-web:jar:4.0.0.RELEASE</node>
+            <node x="210.0" y="874.0">com.springapp:Model:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="118.0" y="418.0">javax.servlet:servlet-api:jar:2.3</node>
+            <node x="210.0" y="798.0">com.springapp:Model:jar:1.0-SNAPSHOT/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="235.0" y="190.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="195.0" y="1064.0">com.springapp:Da:jar:1.0-SNAPSHOT/com.springapp:Common:jar:1.0-SNAPSHOT</node>
+            <node x="369.0" y="304.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="236.0" y="0.0">org.springframework:spring-core:jar:4.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="210.0" y="912.0">com.springapp:Model:jar:1.0-SNAPSHOT/org.aspectj:aspectjtools:jar:1.6.2</node>
+            <node x="369.0" y="342.0">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE</node>
+            <node x="254.0" y="494.0">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="254.0" y="646.0">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE</node>
+            <node x="118.0" y="798.0">com.springapp:Model:jar:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.springapp:Da:jar:1.0-SNAPSHOT" target="com.springapp:Da:jar:1.0-SNAPSHOT/com.springapp:Common:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="141.5" y="1078.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.9">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="774.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="com.springapp:Common:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="1116.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="508.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="171.0" y="622.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="277.5" y="166.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="171.0" y="660.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.3">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="432.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="161.5" y="394.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Da:jar:1.0-SNAPSHOT" target="com.springapp:Da:jar:1.0-SNAPSHOT/com.springapp:Model:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:jar:1.0-SNAPSHOT" target="com.springapp:Model:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="149.0" y="888.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Common:jar:1.0-SNAPSHOT" target="com.springapp:Common:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:jar:1.0-SNAPSHOT" target="com.springapp:Model:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.9">
+              <point x="0.0" y="0.0" />
+              <point x="149.0" y="964.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.0.0.RELEASE" target="org.springframework:spring-test:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.0.0.RELEASE" target="org.springframework:spring-core:jar:4.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="277.5" y="128.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="171.0" y="584.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="52.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="287.0" y="318.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="287.0" y="356.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="com.springapp:Da:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="1040.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="161.5" y="242.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:jar:1.0-SNAPSHOT" target="com.springapp:Model:jar:1.0-SNAPSHOT/com.springapp:Common:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="149.0" y="1002.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="junit:junit:jar:4.8.2">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="736.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="698.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:jar:1.0-SNAPSHOT" target="com.springapp:Model:jar:1.0-SNAPSHOT/org.springframework:spring-web:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="149.0" y="850.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="161.5" y="204.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="com.springapp:Model:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="812.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Workshop1:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.2">
+              <point x="0.0" y="0.0" />
+              <point x="44.0" y="470.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="171.0" y="546.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="161.5" y="90.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="287.0" y="280.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:jar:1.0-SNAPSHOT" target="com.springapp:Model:jar:1.0-SNAPSHOT/org.aspectj:aspectjtools:jar:1.6.2">
+              <point x="0.0" y="0.0" />
+              <point x="149.0" y="926.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Model:jar:1.0-SNAPSHOT" target="com.springapp:Model:jar:1.0-SNAPSHOT/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8947826086956521" x="70.0" y="794.0" />
+          <SelectedNodes>
+            <node>com.springapp:Workshop1:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="36" selection-start="1899" selection-end="1923" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="73" selection-start="1022" selection-end="1038" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/src/test/resources/Test-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="80" selection-start="680" selection-end="694" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/TopMovies.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="63" selection-start="205" selection-end="343" vertical-scroll-proportion="0.37988827">
+        <state line="12" column="53" selection-start="325" selection-end="325" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
@@ -1260,108 +1773,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/strategy/CheckMovie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="918" selection-end="918" vertical-scroll-proportion="0.45648313">
+        <state line="8" column="17" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/io/PrintStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MovieListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="803" column="16" selection-start="27426" selection-end="27426" vertical-scroll-proportion="0.3321492">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/aop/Logging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/impl/SimpleMovieFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.27091634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/stubs/SadMovieFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="128" selection-start="1044" selection-end="1049" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="16" selection-start="768" selection-end="768" vertical-scroll-proportion="0.5632411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/showbiz/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/visitor/ItemVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="40" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.8992095">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1359#1624#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/visitor/EntertainmentVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="514" selection-end="514" vertical-scroll-proportion="0.3320158">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/EntertainmentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="58" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Workshop - Initial - Copy/out/artifacts/Workshop1_war_exploded_new/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="656" selection-end="656" vertical-scroll-proportion="0.30195382">
+        <state line="25" column="67" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/src/main/java/com/oracle/workshop/model/MovieLister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="360" selection-end="360" vertical-scroll-proportion="0.14564832">
+        <state line="23" column="18" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/MovieListerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="64" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/src/test/java/com/oracle/workshop/model/EntertainmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="13" selection-start="1680" selection-end="2118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="10" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.9601407">
           <folding />
         </state>
       </provider>
