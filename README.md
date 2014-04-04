@@ -1,8 +1,8 @@
 Coding-Workshops
 ================
 
-1. On the https://github.com/crbirlad/Coding-Workshops page, click "Download ZIP" (bottom right corner). The archive will contain 2 projects: Workshop-Initial and Workshop1.
-	We will work mainly on the first one: Workshop-Initial.
+1. On the https://github.com/crbirlad/Coding-Workshops page, click "Download ZIP" in the bottom right corner (in case you have GIT knowledge, you can check out the code using any GIT client).
+	The archive will contain 2 projects: Workshop-Initial and Workshop1. We will work mainly on the first one: Workshop-Initial.
 2. Download IntelliJ IDEA Ultimate 12.1.7 for your platform from this page: http://confluence.jetbrains.com/display/IntelliJIDEA/Previous+IntelliJ+IDEA+Releases . Install it.
 	If you run into issues, try to debug them (Hint: search on Google :) ).
 3. Download Apache Tomcat 7 from this page: http://tomcat.apache.org/download-70.cgi . Install it. If you run into issues, try to debug them (Hint: search on Google :) ).
